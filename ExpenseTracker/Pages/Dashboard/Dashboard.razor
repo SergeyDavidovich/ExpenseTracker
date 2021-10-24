@@ -25,17 +25,17 @@
         <div class="col-md-3 col-xs-12 col-xl-6 col-lg-3 daterange overview-range-picker">
             <div id="daterange-overlay">
                 <div id="daterange-wrapper">
-					@if (Render)
-					{
-                    	<SfDateRangePicker TValue="DateTime" AllowEdit="false" ShowClearButton="false" Format="MM/dd/yyyy" StartDate="@ExpenseDataService.StartDate" EndDate="@ExpenseDataService.EndDate" Min="@minDate" Max="@maxDate">
-                        	<DateRangePickerEvents TValue="DateTime" ValueChange="OnDateRangeChange"></DateRangePickerEvents>
-                        	<DateRangePickerPresets>
-                            	<DateRangePickerPreset Label="Last Month" Start="@lastMonthStart" End="@lastMonthEnd"></DateRangePickerPreset>
-                            	<DateRangePickerPreset Label="Last 3 Months" Start="@last3MonthStart" End="@last3MonthEnd"></DateRangePickerPreset>
-                          		<DateRangePickerPreset Label="All Time" Start="@allTimeStart" End="@allTimeEnd"></DateRangePickerPreset>
-                        	</DateRangePickerPresets>
-                    	</SfDateRangePicker>
-					}
+                    @if (Render)
+                    {
+                        <SfDateRangePicker TValue="DateTime" AllowEdit="false" ShowClearButton="false" Format="MM/dd/yyyy" StartDate="@ExpenseDataService.StartDate" EndDate="@ExpenseDataService.EndDate" Min="@minDate" Max="@maxDate">
+                            <DateRangePickerEvents TValue="DateTime" ValueChange="OnDateRangeChange"></DateRangePickerEvents>
+                            <DateRangePickerPresets>
+                                <DateRangePickerPreset Label="Last Month" Start="@lastMonthStart" End="@lastMonthEnd"></DateRangePickerPreset>
+                                <DateRangePickerPreset Label="Last 3 Months" Start="@last3MonthStart" End="@last3MonthEnd"></DateRangePickerPreset>
+                                <DateRangePickerPreset Label="All Time" Start="@allTimeStart" End="@allTimeEnd"></DateRangePickerPreset>
+                            </DateRangePickerPresets>
+                        </SfDateRangePicker>
+                    }
                 </div>
             </div>
         </div>
@@ -223,7 +223,8 @@
 <style>
     #main-page {
         overflow-x: hidden;
-        background: linear-gradient(-141deg, #EEF5F7 14%, #EEF2FB 100%);
+        /*background: linear-gradient(-141deg, #EEF5F7 14%, #EEF2FB 100%);*/
+        background: linear-gradient(-141deg, rgba(24 110 216) 14%, rgb(76 156 223) 10%);
     }
 
     .sidebar-Rightpane {

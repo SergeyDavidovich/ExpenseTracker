@@ -878,12 +878,12 @@ html body > .content {
     background-repeat: no-repeat;
     background-position-x: center;
     width: 50%;
-    background-position-x: left;
+    /*background-position-x: left;*/
     background-position-y: center;
 }
 
 .samplename {
-    background: url("./images/title.svg") no-repeat center;
+    /*background: url("./images/title.svg") no-repeat center;*/
     height: 100%;
 }
 
@@ -965,7 +965,7 @@ html body > .content {
 
 .dashboard-page .page-title {
     padding: 0 0 16px 16px;
-    color: blue;
+    color: white;
     font-size: 30px;
     font-weight: 400;
     margin-top: 0;
@@ -1342,8 +1342,8 @@ span.e-label {
 }
 .sidebar-wrapper-filter,
 #sidebar-wrapper {
-    background: #fff;
-    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.16);
+    /*background: #fff;*/
+    background: #5c6d7e box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.16);
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;

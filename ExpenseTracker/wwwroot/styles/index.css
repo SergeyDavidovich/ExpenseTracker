@@ -975,7 +975,7 @@ html body > .content {
 
 .expense-page .page-title {
     padding: 16px 0 0 16px;
-    color: blue ;
+    color: white;
     font-size: 30px;
     font-weight: 400;
     margin-top: 0;
@@ -1146,6 +1146,7 @@ span.e-label {
 
 .name {
     color: black;
+    color:white;
     font-size: 16px;
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: regular;
@@ -1156,6 +1157,7 @@ span.e-label {
     font-size: 14px;
     font-weight: 400;
     color: #485058;
+    color:white;
 }
 
 .e-grid .e-headercelldiv {
@@ -1240,6 +1242,7 @@ span.e-label {
 
 .nav-list div.nav-item a {
     color: #545454;
+    color:white;
     display: block;
     text-decoration: none;
     font-size: 13px;
@@ -1343,7 +1346,7 @@ span.e-label {
 .sidebar-wrapper-filter,
 #sidebar-wrapper {
     /*background: #fff;*/
-    background: #5c6d7e box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.16);
+    background: #4c9cdf;
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
@@ -2273,6 +2276,7 @@ input[type="search"].search::-moz-placeholder {
     font-size: 14px;
     font-weight: 400;
     color: #485058;
+    color:white;
 }
 
 @media (max-width: 600px) {

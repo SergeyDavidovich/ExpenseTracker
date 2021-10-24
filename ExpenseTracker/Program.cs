@@ -17,7 +17,7 @@ namespace ExpenseTracker
         {
             //Register Syncfusion license 
             Syncfusion.Licensing.SyncfusionLicenseProvider
-                .RegisterLicense("NTEwNjU1QDMxMzkyZTMzMmUzMEY4TVVBZm5UK25DN01YRG5md3RKSkRDdEZnVDNub1FUemJPQThpU3ZGOVU9");
+                .RegisterLicense("NTI0MTgwQDMxMzkyZTMzMmUzMFhlVGtlVVZjWFJEcExRWDhvVVVOL2VrL01LVDdyQWtpd1VuTTBuTmFPa1U9");
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.RootComponents.Add<App>("#app");
 

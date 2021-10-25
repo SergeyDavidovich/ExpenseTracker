@@ -1,5 +1,4 @@
 ﻿@page "/"
-
 @implements IDisposable;
 
 @if (ShowSpinner)
@@ -60,6 +59,7 @@
 @code{
     [CascadingParameter]
     private ExpenseDataService ExpenseDataService { get; set; }
+
 
     private ExpCards CardsRef;
     private ExpPieChart PieChartRef;

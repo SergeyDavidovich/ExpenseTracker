@@ -1,15 +1,15 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-ws41UmW5nFdrGhq8\/ZNWMXQfw5l9UZPl3rwG6waxZqo=",
+      "hash": "sha256-LYzfD9nZuyRYiebaEWaN1xKWXAQ8EpL128muZ7qqU9w=",
       "url": "favicon.ico"
     },
     {
-      "hash": "sha256-82oe1TiO9FwWd63zAj35hdvuVrA\/O8RnSEtusiwadrY=",
+      "hash": "sha256-SQUvCE3sX8JKL7IIjPWB5kJLsbczbJ35lWBhRoqZV0I=",
       "url": "icon-192.png"
     },
     {
-      "hash": "sha256-ccEUUc1pkdD7JnUq4rbC7hFwAS8hWcU+iRfTG7\/4KwQ=",
+      "hash": "sha256-FiPwVAGMrCqngD6JE6DBbUW1N\/Uq3qWlPnn8iwHotos=",
       "url": "icon-512.png"
     },
     {
@@ -917,5 +917,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "07ooNzRm"
+  "version": "RAjX\/a9m"
 };

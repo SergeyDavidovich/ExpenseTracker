@@ -67,7 +67,7 @@
 <div class="expense-page">
     <div class='exp-content-container'>
         <div>
-            <p class="page-title">All Transactions</p>
+            <p class="page-title">Transactions</p>
         </div>
         <div>
             <div class="col-md-12 margin-top col-lg-12">
@@ -97,6 +97,8 @@
 </div>
 
 @code{
+    #region
+
     [CascadingParameter]
     public ExpenseDataService ExpenseDataService { get; set; }
 
@@ -131,4 +133,5 @@
         FilterRef = null;
         DialogRef = null;
     }
+    #endregion
 }
